@@ -1,6 +1,6 @@
 # IT Solutions & Business Responsive Website
 
-![Website Preview](images/banner.jpg)
+![Website Preview](images/Banner.png)
 
 A modern, responsive website for IT Solutions and Business Services, built with HTML, CSS, and JavaScript.
 
