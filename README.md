@@ -4,11 +4,6 @@
 
 A modern, responsive website for IT Solutions and Business Services, built with HTML, CSS, and JavaScript.
 
-## 🖼️ Website Preview
-
-![TopTech IT Solutions Website](https://raw.githubusercontent.com/bandarupavankumar/IT-Solution-Business-Responsive/main/screenshots/homepage.png)
-*Screenshot of the TopTech IT Solutions homepage*
-
 ## 🚀 Features
 
 - **Fully Responsive** design that works on all devices
