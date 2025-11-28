@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopTech IT Solutions</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+    <header id="mainHeader">
+        <div class="logo">
+            <i class="bx bxl-unity">TopTech</i> 
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="#" class="primaryBtn headerBtn">Get a Quote</a>
+
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Pages</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+        <div>
+            <p>WELCOME TO TOPTECH</p>
+            <h1>TOP IT SOLUTIONS AGENCY <br/> IN THE WORLD</h1>
+            <p>
+                Some of the top IT solutions agencies globally and in India include Tata Consultancy Services (TCS), Infosys, Wipro, Accenture, IBM, and HCL Technologies. For Bangalore specifically, other leading companies are Google India, SAP Labs India, and Amazon India. The best choice depends on specific needs, such as IT consulting expertise (e.g., Deloitte, McKinsey, BCG) or focus areas like e-commerce development. 
+            </p>
+            <br><br/>
+            <div class="hero-buttons">
+                <a class="primaryBtn" href="#">How it Works</a>
+                <a href="#" class="secondaryBtn">IT Services</a>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="heroService" data-aos="zoom-in">
+        <div class="heroService-card">
+            <img src="images/one5.png" alt="Managed IT Services">
+            <h3>Managed IT Services</h3>
+            <p>Managed IT services are IT tasks outsourced to a third-party provider who manages and maintains a client's technology infrastructure, such as networks, security, and software, for a predictable monthly fee. </p>
+            <a href="#">READ MORE <i class="bx bx-chevrons-right"></i></a>
+        </div>
+
+        <div class="heroService-card">
+            <img src="images/one4.png" alt="Cloud Services">
+            <h3>Cloud Services</h3>
+            <p>Cloud services provide on-demand computing services—from applications to storage and processing power—typically over the internet and on a pay-as-you-go basis.</p>
+            <a href="#">READ MORE <i class="bx bx-chevrons-right"></i></a>
+        </div>
+        <div class="heroService-card">
+            <img src="images/one3.png" alt="Machine Learning">
+            <h3>Machine Learning</h3>
+            <p>Managed IT services are IT tasks outsourced to a third-party provider who manages and maintains a client's technology infrastructure, such as networks, security, and software, for a predictable monthly fee. </p>
+            <a href="#">READ MORE <i class="bx bx-chevrons-right"></i></a>
+        </div>
+        <div class="heroService-card">
+            <img src="images/one2.png" alt="Data Security">
+            <h3>Data Security</h3>
+            <p>Managed IT services are IT tasks outsourced to a third-party provider who manages and maintains a client's technology infrastructure, such as networks, security, and software, for a predictable monthly fee. </p>
+            <a href="#">READ MORE <i class="bx bx-chevrons-right"></i></a>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+
+    <section class="about-section">
+        <div class="aboutContainer">
+            <div class="about-image" data-aos="fade-left">
+                <div class="shape"></div>
+                <img src="" alt="" class="aboutIcon1">
+                <img src="" alt="" class="aboutIcon2">
+                <img src="" alt="" class="aboutIcon3">
+            </div>
+
+            <div class="about-right" data-aos="fade-right">
+                <h5 class="subHeading">PROFESSIONAL SOLUTION</h5>
+                <h2 class="heading">Get Exculsive IT Solutions & Service With <span>TopTech</span></h2>
+                <p class="desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industy's</p>
+
+                <div class="feature">
+                    <div class="icon">
+                        <img src="images/about1.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Certified Company</h4>
+                        <p class="desc">Lorem Ipsum is simply dummy text of the printing</p>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="icon">
+                        <img src="images/about2.png" alt="">
+                    </div>
+                    <div>
+                        <h4>Internet Networking</h4>
+                        <p class="desc">Lorem Ipsum is simply dummy text of the printing</p>
+                    </div>
+                </div>
+                <button class="primaryBtn">AUDIT NOW</button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section class="services-section">
+        <div class="container">
+            <p class="subHeading" data-aos="zoom-in">We Provide Our Services</p>
+            <h2 class="heading" style="color: var(--white)" data-aos="zoom-in">
+                All Professional We're Offering Best &<br/>
+                IT Solution & <span>Services</span>
+            </h2>
+            <br/>
+            <div class="services-grid" data-aos="fade-left">
+                <div class="service-card">
+                    <div class="icon-box">
+                        <img src="images/service/one2.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Web Design</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="#" class="readMore">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <img src="images/service/one3.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Motion Design</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="#" class="readMore">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <img src="images/service/one2.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Digital Marketing</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="#" class="readMore">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <img src="images/service/one4.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Web Development</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="#" class="readMore">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <img src="images/service/one5.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>App development</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="#" class="readMore">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <img src="images/service/one1.png" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Creative Solutions</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="#" class="readMore">READ MORE</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Working Process Section -->
+
+    <section class="work-process">
+        <div class="container">
+            <h5 class="subHeading" data-aos="zoom-in">WORK PROCESS</h5>
+            <h2 class="heading" data-aos="zoom-in">Working Process For 
+                <span>Technology</span></h2>
+            <br><br/>
+            <!-- step 1 -->
+            <div class="process-wrapper">
+                <div class="Process-card" data-aos="fade-left">
+                    <div class="processicon-box">
+                        <div class="rotating-border"></div>
+                        <span class="step-number">1</span>
+                        <img src="images/one3.png" alt="">
+                    </div>
+                    <h3>Select A Project</h3>
+                    <p>We have the technology and IT Expertise to develop. </p>
+                </div>
+            
+
+            <img class="arrow" src="" alt="">
+
+            <!-- step 2 -->
+            
+                <div class="Process-card" data-aos="fade-down">
+                    <div class="processicon-box">
+                        <div class="rotating-border"></div>
+                        <span class="step-number">2</span>
+                        <img src="images/one4.png" alt="">
+                    </div>
+                    <h3>Project Analysis</h3>
+                    <p>We have the technology and IT Expertise to develop. </p>
+                </div>
+            
+
+            <img class="arrow" src="" alt="">
+
+            <!-- step 3 -->
+            
+                <div class="Process-card" data-aos="fade-down">
+                    <div class="processicon-box">
+                        <div class="rotating-border"></div>
+                        <span class="step-number">3</span>
+                        <img src="images/tech/one3.png" alt="">
+                    </div>
+                    <h3>Start Process</h3>
+                    <p>We have the technology and IT Expertise to develop. </p>
+                </div>
+            
+
+            <img class="arrow" src="" alt="">
+
+            <!-- step 4 -->
+           
+                <div class="Process-card" data-aos="fade-down">
+                    <div class="processicon-box">
+                        <div class="rotating-border"></div>
+                        <span class="step-number">4</span>
+                        <img src="images/tech/one4.png" alt="">
+                    </div>
+                    <h3>Deliver Result</h3>
+                    <p>We have the technology and IT Expertise to develop. </p>
+                </div>
+            
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Get Free Estimate Section -->
+
+    <section class="estimate-faq">
+        <div class="estimateContainer">
+            <div class="estimate-box" data-aos="fade-left">
+                <h2>Get Free Estimate</h2>
+                <form>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Phone">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Write Message"></textarea>
+                    <button class="primaryBtn" style="width: 100%;">Free Consultation</button>
+                </form>
+
+            </div>
+            <div class="faq-box" data-aos="fade-right">
+                <h5 class="subHeading">WORK PROCESS</h5>
+                <h2 class="heading">Frequently Asked Any kind <br> of Questions </h2>
+
+                <div class="accordion">
+                    <details>
+                        <summary>
+                            <span>
+                                 <i class="bx bxs-dock-top"></i>
+                                What is Technology Services?
+                            </span>
+                            <span class="icon">+</span>
+                        </summary>
+                        <div class="content">
+                            Some quick example text to explain the answer clearly.
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>
+                            <span>
+                                <i class="bx bxs-dock-top"></i>
+                                What is Technology Services?
+                            </span>
+                            <span class="icon">+</span>
+                        </summary>
+                        <div class="content">
+                            Some quick example text to explain the answer clearly.
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>
+                            <span>
+                                <i class="bx bxs-dock-top"></i>
+                                What is Technology Services?
+                            </span>
+                            <span class="icon">+</span>
+                        </summary>
+                        <div class="content">
+                            Some quick example text to explain the answer clearly.
+                        </div>
+                    </details>
+
+                    <details>
+                        <summary>
+                            <span>
+                                <i class="bx bxs-dock-top"></i>
+                                What is Technology Services?
+                            </span>
+                            <span class="icon">+</span>
+                        </summary>
+                        <div class="content">
+                            Some quick example text to explain the answer clearly.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study Section -->
+
+    <section class="caseStudySection">
+        <div class="case-header container">
+            <div data-aos="fade-right" style="text-align: left;">
+                <h5 class="subHeading">CASE STUDY</h5>
+                <h2 class="heading">We've Done Lot's of <br/> Awesome Case Study</h2>
+            </div>
+
+            <a href="#" class="primaryBtn" style="height: 50px;" data-aos="fade-left">View All</a>
+        </div>
+
+        <div class="case-cards" data-aos="fade-right">
+            <div class="card">
+                <img src="images/work1.jpg" alt="">
+                <div class="overlay">Audit &apm; Assurance</div>
+            </div>
+            <div class="card">
+                <img src="images/work2.jpg" alt="">
+                <div class="overlay">Audit &apm; Assurance</div>
+            </div>
+            <div class="card">
+                <img src="images/work3.jpg" alt="">
+                <div class="overlay">Audit &apm; Assurance</div>
+            </div>
+            <div class="card">
+                <img src="images/work4.jpg" alt="">
+                <div class="overlay">Audit &apm; Assurance</div>
+            </div>
+            
+           
+        </div>
+    </section>
+
+    <!-- Testimonal Section -->
+
+    <section class="testimonial-section">
+        <div class="container">
+            <h4 class="subHeading" data-aos="zoom-in">TESTIMONIAL</h4>
+            <h2 class="heading" data-aos="zoom-in">
+                Customer's Awesome Feedback <br/> About Our Services
+            </h2>
+            <div class="swiper testimonialSlider" data-aos="fade-left">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="images/avatar1.jpg" alt="" class="avatar">
+                            <p class="review-text">
+                                Lore Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsm has been the industry's standard summy text 
+                                ever since the 1500s, when an unknow printer took a galley of type
+                                and scrambled it to make a type speciment book.
+                            </p>
+                            <div class="stars">★★★★★</div>
+                            <h3 class="name">John Adams</h3>
+                            <p class="postion">Customer</p>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <img src="images/avatar2.jpg" alt="" class="avatar">
+                            <p class="review-text">
+                                Lore Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsm has been the industry's standard summy text 
+                                ever since the 1500s, when an unknow printer took a galley of type
+                                and scrambled it to make a type speciment book.
+                            </p>
+                            <div class="stars">★★★★★</div>
+                            <h3 class="name">John Adams</h3>
+                            <p class="postion">Customer</p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Featured News Section -->
+
+<section class="news-section">
+    <p class="subHeading" data-aos="zoom-in">LATEST NEWS</p>
+    <h2 class="heading" data-aos="zoom-in">Featured News And <span>Insights</span></h2>
+    <div class="news-wrapper">
+        <div class="news-card" data-aos="fade-left">
+            <img src="images/content1.jpg" alt="">
+            <div class="news-content">
+                <p class="date">June 12, 2025</p>
+                <h3>Most Popular Choice Nowdays</h3>
+                <p class="category">Business Services</p>
+            </div>
+        </div>
+        <div class="news-card" data-aos="fade-left">
+            <img src="images/content2.jpg" alt="">
+            <div class="news-content">
+                <p class="date">June 12, 2025</p>
+                <h3>Most Popular Choice Nowdays</h3>
+                <p class="category">Business Services</p>
+            </div>
+        </div>
+        <div class="news-card" data-aos="fade-right">
+            <img src="images/content3.jpg" alt="">
+            <div class="news-content">
+                <p class="date">June 12, 2025</p>
+                <h3>Most Popular Choice Nowdays</h3>
+                <p class="category">Business Services</p>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<!-- footer -->
+
+<button id="backToTop">
+    <i class="bx bx-chevron-up"></i>
+</button>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col footer-about">
+            <h2 class="footer-logo">TopTech</h2>
+            <p>Lorem Ipsum is simpley dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's</p>
+                <br/><br/>
+                <a href="#" class="primaryBtn">Discover More</a>
+
+        </div>
+
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Nes</a></li>
+                <li><a href="#">Pricing Plan</a></li>
+                <li><a href="#">Latest Blog</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Nes</a></li>
+                <li><a href="#">Pricing Plan</a></li>
+                <li><a href="#">Latest Blog</a></li>
+                <li><a href="#">Career</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Our Services</h4>
+            <ul>
+                <li><a href="#">IT Solution</a></li>
+                <li><a href="#">Cyber Security</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Brand Idenity</a></li>
+                <li><a href="#">SEO Marketing</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col newsletter">
+            <h4>Newsletter</h4>
+            <input type="email" placeholder="Enter your email">
+            <button class="primaryBtn">Subscribe</button>
+        </div>
+    </div>
+    
+</footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="custom.js"></script>
+    
+</body>
+</html>
