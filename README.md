@@ -21,14 +21,6 @@ A modern, responsive website for IT Solutions and Business Services, built with 
 - [Swiper.js](https://swiperjs.com/) for sliders
 - [AOS (Animate On Scroll)](https://michalsnik.github.io/aos/)
 
-## 🖥️ Live Demo
-
-Check out the live demo: [View Live](https://your-vercel-app.vercel.app)
-
-## 📱 Screenshots
-
-![Homepage](screenshots/homepage.png)
-*Homepage with hero section and services*
 
 ## 🚀 Getting Started
 
@@ -58,10 +50,6 @@ Check out the live demo: [View Live](https://your-vercel-app.vercel.app)
 - Update images in the `images/` directory
 - Customize animations in `custom.js`
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - [Box Icons](https://boxicons.com/)
@@ -71,7 +59,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📬 Contact
 
 - GitHub: [@bandarupavankumar](https://github.com/bandarupavankumar)
-- Email: your.email@example.com
+- Email: mrpavankumar234@gmail.com
 
 ---
 
